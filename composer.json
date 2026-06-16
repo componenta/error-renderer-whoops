@@ -1,0 +1,23 @@
+{
+    "name": "componenta/error-renderer-whoops",
+    "description": "Whoops renderer integration for Componenta error handling",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4",
+        "componenta/error-handler": "^1.0",
+        "filp/whoops": "^2.18",
+        "psr/http-message": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Componenta\\Error\\Renderer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Componenta\\Error\\Renderer\\Whoops\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
